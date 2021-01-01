@@ -1,12 +1,12 @@
 let scene, camera, renderer, light, materials = [],
 backgroundColor, planeColor, numPlanes=4000, numIllustrations=16,
-geometry, planes = [], plane, planeSize = 30;
+geometry, planes = [], plane, planeSize = 60;
 
 function init() {
   scene = new THREE.Scene();
   backgroundColor = new THREE.Color(0xd6d0d0);
   scene.background = backgroundColor;
-  camera = new THREE.PerspectiveCamera(120, window.innerWidth/window.innerHeight, 0.1, 500);
+  camera = new THREE.PerspectiveCamera(100, window.innerWidth/window.innerHeight, 0.1, 500);
   camera.position = (0, 0, 0);
   // Camera facing upwards:
   camera.rotation.x = 1.5;
@@ -17,7 +17,7 @@ function init() {
   scene.add(light);
 
   renderer = new THREE.WebGLRenderer( { canvas: graphicCanvas} );
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setSize(window.innerWidth*0.43, window.innerHeight*0.53);
   document.body.appendChild(renderer.domElement);
 
   planeColor = backgroundColor;
@@ -49,11 +49,11 @@ for ( let i=0; i<numIllustrations; i++ ) {
 function animate() {
 
 for(var i=0; i<numPlanes; i++) {
-  planes[i].rotation.x += Math.random()*0.01;
-  planes[i].rotation.y -= Math.random()*0.008;
-  planes[i].rotation.z += Math.random()*0.009;
+  planes[i].rotation.x += 0.001*Math.random();
+  planes[i].rotation.y -= 0.004*Math.random();
+  planes[i].rotation.z += 0.003*Math.random();
 
-  planes[i].position.y -= Math.random()*0.6;
+  planes[i].position.y -= Math.random()*0.7;
   if (planes[i].position.y < -200) {
     planes[i].position.y = 200;
     planes[i].position = 0;
@@ -63,8 +63,8 @@ for(var i=0; i<numPlanes; i++) {
   requestAnimationFrame(animate);
 }
 function onWindowResize() {
-  camera.aspect = window.innerWidth/window.innerHeight;
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  camera.aspect = window.innerWidth*0.43/window.innerHeight*0.53;
+  renderer.setSize(window.innerWidth*0.43, window.innerHeight*0.53);
   camera.updateProjectionMatrix();
 }
 init();
