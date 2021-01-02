@@ -7,11 +7,12 @@
   			window.dataLayer = window.dataLayer || [];
   			function gtag(){dataLayer.push(arguments);}
   			gtag('js', new Date());
-			
+
 			gtag('config', 'G-765CYMN8SG');
 		</script>
-		
+
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
     		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;400&display=swap" rel="stylesheet">
 		<title>~ music ~</title>
@@ -23,15 +24,29 @@
 			}
 			body {
 				background-color: white;
-				margin: 0px;
-				min-height: 100%;
+        			margin: 0px;
+        			min-height: 100%;
 				cursor: auto;
 			}
-			#content {
-				width: 43%;
-				margin: auto;
-				padding: 30px;
-				font-family: "Spectral", "Georgia", serif;
+			
+			/* Mobile devices/small screens */
+			@media screen and (max-width:640px) {
+				#content {
+					width: 89%;
+					margin: auto;
+					padding: 0px;
+					font-family: "Spectral", "Georgia", serif;
+				}
+			}
+			
+			/* Desktops */
+			@media screen and (min-width:641px) {
+				#content {
+					width: 43%;
+					margin: auto;
+					padding: 30px;
+					font-family: "Spectral", "Georgia", serif;
+				}
 			}
 			h1 {
 				font-size: 48px;
@@ -52,7 +67,7 @@
 			}
 			h1 a:visited {
         			text-decoration: none;
-			}
+      			}
 			.topnav {
 				border: 1px solid black;
 				border-width: 1px 0;
@@ -73,19 +88,19 @@
 				display: inline-block;
 				padding: 10px;
 			}
-		      	.topnav a:link {
+			.topnav a:link {
 				text-decoration: none;
-		      	}
-		      	.topnav a:visited {
+			}
+			.topnav a:visited {
 				text-decoration: underline;
-		      	}
-		      	.topnav a:hover {
+			}
+			.topnav a:hover {
 				text-decoration: underline;
-		      	}
-		      	.topnav a:active {
+			}
+			.topnav a:active {
 				text-decoration: underline;
 				color: Crimson;
-		      	}
+			}
 			h2 {
 				font-size: 18px;
 				font-weight: 600;
@@ -118,14 +133,14 @@
 				font-style: italic;
 			}
       			.horizontalSpace {
-        			display: block;
+        			display:block;
         			height: 30px;
-      			}
-      			.player {
+			}
+			.player {
 				width: 100%;
 				opacity: 0.9;
 				margin: auto;
-			}
+      			}
 			.embed-page {
 				position: relative;
 				overflow: hidden;
@@ -144,30 +159,29 @@
 		</style>
 	</head>
 	<body>
-    		<div id="content">
+		<div id="content">
 			<h1><a href="index.html">WILMA HULTÉN</a></h1>
-			
 			<ul class="topnav">
-				<li><a href="index.html" class="active">Home</a></li>
-				<li><a href="music.html">Music</a></li>
-				<li><a href="about.html">About</a></li>
+			      <li><a href="index.html" class="active">Home</a></li>
+			      <li><a href="music.html">Music</a></li>
+			      <li><a href="about.html">About</a></li>
 			</ul>
-			
+
 			<span class="horizontalSpace"></span>
 			<h2><a href="https://cashmereradio.com/chronopolis/inert-mass/" target="_blank"><i>Inert Mass</i> @ Chronopolis/Cashmere Radio</a></h2>
 			<div class="embed-page">
-			<iframe
+				<iframe
 				src="https://cashmereradio.com/chronopolis/inert-mass/"
 				style="width: 100%; height: 400px;"
 				scrolling="yes"
-				frameBorder="no"
-			></iframe>
+				frameBorder="no">
+				</iframe>
 			</div>
 			<p><i>Inert Mass</i> is an algorithmic piece of music that will stream for the entire month of January 2021 (and then never again) on
-			<a href="https://cashmereradio.com/chronopolis/" target="_blank">Chronopolis</a> on
-			<a href="https://cashmereradio.com/"
-			target="_blank">Cashmere Radio</a>.
-			You can listen to it <a href="https://cashmereradio.com/chronopolis/inert-mass/" target="_blank">here</a>.</p>
+				<a href="https://cashmereradio.com/chronopolis/" target="_blank">Chronopolis</a> on
+				<a href="https://cashmereradio.com/"
+				target="_blank">Cashmere Radio</a>.
+				You can listen to it <a href="https://cashmereradio.com/chronopolis/inert-mass/" target="_blank">here</a>.</p>
 
 			<span class="horizontalSpace"></span>
 
@@ -177,14 +191,14 @@
 				<iframe width="100%" height="120" scrolling="no" frameborder="no"
 				src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/957702328&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
 			</iframe>
-			
+
 			<span class="horizontalSpace"></span>
 
 			<h2><a href="https://soundcloud.com/wilmahulten/7-limit-just-intonation-test" target="_blank">7-limit just intonation test</a></h2>
 			<div class="player">
-			<iframe width="100%" height="120" scrolling="no" frameborder="no"
-				src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/440137653&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-			</iframe>
+				<iframe width="100%" height="120" scrolling="no" frameborder="no"
+					src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/440137653&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+				</iframe>
 			</div>
 			<span class="horizontalSpace"></span>
 			<span class="horizontalSpace"></span>
