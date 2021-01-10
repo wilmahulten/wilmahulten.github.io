@@ -15,20 +15,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;400&display=swap" rel="stylesheet">
-		<title>~ about ~</title>
+		<title>About | Wilma Hultén</title>
 		<style>
 			html {
-				margin: 0px;
-				height: 100%;
-				width: 100%;
+   			margin: 0px;
+   			height: 100%;
+   			width: 100%;
 			}
 			body {
 				background-color: white;
         			margin: 0px;
-       	 			min-height: 100%;
+        			min-height: 100%;
 				cursor: auto;
 			}
-			
 			/* Mobile devices/small screens */
 			@media screen and (max-width:640px) {
 				#content {
@@ -37,26 +36,42 @@
 					padding: 0px;
 					font-family: "Spectral", "Georgia", serif;
 				}
+				h1 {
+					width: 100%;
+					display: block;
+					overflow: hidden;
+					font-size: 38px;
+					letter-spacing: 0.4em;
+					margin-left: 0.2em;
+					font-weight: 100;
+					font-style: normal;
+					font-kerning: normal;
+					cursor: crosshair;
+					text-align: center;
+				}
 			}
-			
 			/* Desktops */
-			@media screen and (min-width:641px) {
+			@media screen and (min-width:640px) {
 				#content {
 					width: 43%;
 					margin: auto;
 					padding: 30px;
 					font-family: "Spectral", "Georgia", serif;
+					justify-content: center;
 				}
-			}
-			h1 {
-				font-size: 48px;
-				letter-spacing: 22px;
-				font-weight: 100;
-				font-style: normal;
-				font-kerning: normal;
-				text-align: center;
-				padding: 0px;
-				cursor: crosshair;
+				h1 {
+					width: 100%;
+					display: block;
+					overflow: hidden;
+					font-size: 51px;
+					letter-spacing: 0.4em;
+					margin-left: 0.2em;
+					font-weight: 100;
+					font-style: normal;
+					font-kerning: normal;
+					cursor: crosshair;
+					text-align: center;
+				}
 			}
 			h1 a {
 				cursor: crosshair;
@@ -66,12 +81,39 @@
 				text-decoration: none;
 			}
 			h1 a:visited {
-  				text-decoration: none;
-	    		}
-			h2 {
-				font-size: 18px;
-	      			font-weight: 300;
+        			text-decoration: none;
+      			}
+			h1 a {
+				cursor: crosshair;
+				color: black;
+			}
+			h1 a:link {
 				text-decoration: none;
+			}
+			h1 a:visited {
+				text-decoration: none;
+			}
+			.current {
+				width: 25%;
+				color: dimgray;
+				font-size: 20px;
+				letter-spacing: 4px;
+				font-weight: 400;
+				display: inline-block;
+				padding: 10px;
+				text-decoration: none;
+				text-align: center;
+			}
+			.navElement {
+				width: 25%;
+				color: black;
+				font-size: 20px;
+				letter-spacing: 4px;
+				font-weight: 400;
+				display: inline-block;
+				padding: 10px;
+				text-decoration: none;
+				text-align: center;
 			}
 			.topnav {
 				border: 1px solid black;
@@ -83,18 +125,7 @@
 			}
 			.topnav li {
 				display: inline;
-			}
-			.topnav a {
-				 width: 25%;
-				 color: black;
-				 font-size: 20px;
-				 letter-spacing: 4px;
-				 font-weight: 400;
-				 display: inline-block;
-				 padding: 10px;
-			}
-			.topnav a:link {
-				text-decoration: none;
+
 			}
 			.topnav a:visited {
 				text-decoration: underline;
@@ -118,18 +149,18 @@
 		</style>
 	</head>
 	<body>
-		<div id="content">
-			<h1><a href="index.html">WILMA HULTÉN</a></h1>
-			<ul class="topnav">
-				<li><a href="index.html" class="active">Home</a></li>
-				<li><a href="music.html">Music</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-			<span class="horizontalSpace"></span>
-			<p>Electroacoustic composer from Stockholm, Sweden.</p>
-			<br>
-			<p>Contact: wilmahulten@gmail.com</p>
-			<br>
+    		<div id="content">
+				<h1><a href="index.html">WILMA HULTÉN</a></h1>
+				<ul class="topnav">
+					<li><a class="navElement" href="index.html">Home</a></li>
+					<li><a class="navElement" href="music.html">Music</a></li>
+					<li><a class="current" href="about.html">About</a></li>
+				</ul>
+				<span class="horizontalSpace"></span>
+				<p>Electroacoustic composer from Stockholm, Sweden.</p>
+				<br>
+				<p>Contact: wilmahulten@gmail.com</p>
+				<br>
     		</div>
 	</body>
 </html>
