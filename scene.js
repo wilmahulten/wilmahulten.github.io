@@ -17,7 +17,14 @@ function init() {
   scene.add(light);
 
   renderer = new THREE.WebGLRenderer( { canvas: graphicCanvas} );
-  renderer.setSize(window.innerWidth*0.43, window.innerHeight*0.53);
+  content = document.getElementById('content');
+  if (screen.width > 640) {
+    renderer.setSize(window.innerWidth*0.43, window.innerHeight*0.53);
+  } else {
+    // renderer.setSize(content.offsetWidth, content.offsetHeight);
+    renderer.setSize(window.innerWidth*0.89, window.innerHeight*0.33);
+  }
+  content.appendChild(renderer.domElement);
   document.body.appendChild(renderer.domElement);
 
   planeColor = backgroundColor;
@@ -63,8 +70,12 @@ for(var i=0; i<numPlanes; i++) {
   requestAnimationFrame(animate);
 }
 function onWindowResize() {
-  camera.aspect = window.innerWidth*0.43/window.innerHeight*0.53;
-  renderer.setSize(window.innerWidth*0.43, window.innerHeight*0.53);
+  camera.aspect = window.innerWidth/window.innerHeight;
+  if (screen.width > 640) {
+    renderer.setSize(window.innerWidth*0.43, window.innerHeight*0.53);
+  } else {
+    renderer.setSize(window.innerWidth*0.89, window.innerHeight*0.33);
+  }
   camera.updateProjectionMatrix();
 }
 init();
