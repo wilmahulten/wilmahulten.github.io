@@ -15,17 +15,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;400&display=swap" rel="stylesheet">
-		<title>About | Wilma Hultén</title>
+		<title>Music | Wilma Hultén</title>
 		<style>
-			html {
-   			margin: 0px;
-   			height: 100%;
-   			width: 100%;
+      			html {
+   				margin: 0px;
+   				height: 100%;
+   				width: 100%;
 			}
 			body {
 				background-color: white;
         			margin: 0px;
-       				min-height: 100%;
+        			min-height: 100%;
 				cursor: auto;
 			}
 			/* Mobile devices/small screens */
@@ -137,30 +137,114 @@
 				text-decoration: underline;
 				color: Crimson;
 			}
-	    		p {
+			h2 {
 				font-size: 18px;
-	      			font-weight: 300;
+				font-weight: 600;
+				text-decoration: underline;
+			}
+			h2 a:link {
+				color: black;
+			}
+			h2 a:visited {
+				color: black;
+			}
+			h3 {
+				font-size: 16px;
+				font-weight: 100;
 				text-decoration: none;
-	    		}
-			.horizontalSpace {
-				display:block;
-	      			height: 30px;
-	    		}
+				font-style: italic;
+				line-height: 70%;
+			}
+			p {
+				font-size: 18px;
+        			font-weight: 300;
+				text-decoration: none;
+      			}
+			p a {
+				color: black;
+				font-weight: 400;
+				text-decoration: none;
+			}
+			p a:hover {
+				text-decoration: underline;
+			}
+			p a:active {
+				color: Crimson;
+			}
+      			.horizontalSpace {
+        			display:block;
+        			height: 30px;
+      			}
+      			.player {
+				width: 100%;
+				opacity: 0.8;
+				margin: auto;
+      			}
+			.embed-page {
+				position: relative;
+				overflow: hidden;
+				width: 100%;
+				display: block;
+			}
+			.embed-page-iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;
+			}
 		</style>
 	</head>
 	<body>
-		<div id="content">
-			<h1><a href="index.html">WILMA HULTÉN</a></h1>
-			<ul class="topnav">
-				<li><a class="navElement" href="index.html">Home</a></li>
-				<li><a class="navElement" href="music.html">Music</a></li>
-				<li><a class="current" href="about.html">About</a></li>
-			</ul>
+			<div id="content">
+				<h1><a href="index.html">WILMA HULTÉN</a></h1>
+
+				<ul class="topnav">
+				      <li><a class="navElement" href="index.html">Home</a></li>
+				      <li><a class="current" href="music.html">Music</a></li>
+				      <li><a class="navElement" href="about.html">About</a></li>
+				</ul>
+
+				<span class="horizontalSpace"></span>
+				<h2><a href="https://cashmereradio.com/chronopolis/inert-mass/" target="_blank"><i>Inert Mass</i> @ Chronopolis/Cashmere Radio</a></h2>
+				<div class="embed-page">
+					<iframe
+						src="https://cashmereradio.com/chronopolis/inert-mass/"
+						style="width: 100%; height: 400px;"
+						scrolling="yes"
+						frameBorder="no">
+					</iframe>
+				</div>
+				<p><i>Inert Mass</i> is an algorithmic piece of music that will stream for the entire month of January 2021 (and then never again) on
+				<a href="https://cashmereradio.com/chronopolis/" target="_blank">Chronopolis</a>
+				(<a href="https://cashmereradio.com/"target="_blank">Cashmere Radio</a>).
+				You can read more
+				<a href="https://cashmereradio.com/chronopolis/inert-mass/" target="_blank">here</a>
+				and listen to it
+				<a href="https://cashmereradio.com/chronopolis/" target="_blank">here</a>.</p>
+
+				<span class="horizontalSpace"></span>
+
+				<h2><a href="https://soundcloud.com/wilmahulten/imbrications" target="_blank">Imbrications</a></h2>
+				<h3>For violin and electronics</h3>
+				<div class="player">
+					<iframe width="100%" height="120" scrolling="no" frameborder="no"
+						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/957702328&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+					</iframe>
+				</div>
+
+				<span class="horizontalSpace"></span>
+
+				<h2><a href="https://soundcloud.com/wilmahulten/7-limit-just-intonation-test" target="_blank">7-limit just intonation test</a></h2>
+				<div class="player">
+					<iframe width="100%" height="120" scrolling="no" frameborder="no"
+						src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/440137653&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+					</iframe>
+				</div>
 			<span class="horizontalSpace"></span>
-			<p>Electroacoustic composer from Stockholm, Sweden.</p>
-			<br>
-			<p>Contact: wilmahulten@gmail.com</p>
-			<br>
+			<span class="horizontalSpace"></span>
 		</div>
 	</body>
 </html>
