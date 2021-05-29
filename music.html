@@ -213,11 +213,19 @@
 		display: block;
 	}
 	.embed-page-iframe {
+	}
+	.youtube-embed {
+		position: relative;
+		padding-top: 56.25%;
+		/* padding-top: 35px; */
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+	}
+	.youtube-embed-iframe {
 		position: absolute;
 		top: 0;
 		left: 0;
-		bottom: 0;
-		right: 0;
 		width: 100%;
 		height: 100%;
 	}
@@ -239,19 +247,20 @@
 		<p>I played a live concert on May 21, 2021 at <a href="https://www.fylkingen.se/" target="_blank">Fylkingen</a> with material that I have developed during the last few months. I played with a midi controller and all sounds were created in SuperCollider. If you listened to my algorithmic piece on Chronopolis (see below), you will recognize the soundscape.</p>
 		<p></p>
 		<p>Listen to the full performance:</p>
-		<div class="embed-page">
-		<iframe
-			style="width: 650px; height: 365px;"
+		<div class="youtube-embed">
+		<iframe class="youtube-embed-iframe"
 			src="https://www.youtube.com/embed/r90GS1Go1gc"
-			title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			title="YouTube video player" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		</iframe>
 	</div>
 	<p>Special thanks to <a href="https://www.mariahorn.se/" target="_blank">Maria W Horn</a> and <a href="https://www.davidgranstrom.com/" target="_blank">David Granström</a> for all their help and support, technical and otherwise.</p>
 		<span class="horizontalSpace"></span>
 
 		<h2><a href="https://cashmereradio.com/chronopolis/inert-mass/" target="_blank"><i>Inert Mass</i> @ Chronopolis/Cashmere Radio</a></h2>
 		<div class="embed-page">
-			<iframe
+			<iframe class="embed-page-iframe"
 			src="https://cashmereradio.com/chronopolis/inert-mass/"
+			loading="lazy"
 			style="width: 100%; height: 400px;"
 			scrolling="yes"
 			frameBorder="no">
