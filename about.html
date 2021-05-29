@@ -15,6 +15,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>About | Wilma Hultén</title>
 	<style>
 	html {
@@ -26,7 +27,7 @@
 		background-color: white;
 		margin: 0px;
 		min-height: 100%;
-		cursor: crosshair;
+		cursor: auto;
 	}
 	/* Mobile devices/small screens */
 	@media all and (min-width: 50px)   {  h1  { font-size:2.3em;  } }
@@ -58,8 +59,6 @@
 			margin: auto;
 			padding: 0px;
 			font-family: "Spectral", "Georgia", serif;
-			justify-content: center;
-			cursor: auto;
 		}
 		h1 {
 			width: 100%;
@@ -82,7 +81,6 @@
 			padding: 30px;
 			font-family: "Spectral", "Georgia", serif;
 			justify-content: center;
-			cursor: auto;
 		}
 		h1 {
 			width: 100%;
@@ -170,6 +168,31 @@
 		display:block;
 		height: 30px;
 	}
+	.fa {
+  padding: 20px 20px 20px 0px;
+	text-align: center;
+  margin: 10px 10px;
+  font-size: 100%;
+  width: 40px;
+}
+.fa-soundcloud {
+background: white;
+color: gray;
+width: 20px;
+}
+	.fa-instagram {
+  background: white;
+  color: gray;
+	width: 20px;
+}
+.fa-youtube {
+background: white;
+color: gray;
+width: 20px;
+}
+.fa:hover {
+    opacity: 0.9;
+}
 	</style>
 </head>
 <body>
@@ -182,9 +205,12 @@
 		</ul>
 		<span class="horizontalSpace"></span>
 		<p>Electroacoustic composer from Stockholm, Sweden.</p>
-		<br>
+		<p></p>
 		<p>Contact: wilmahulten@gmail.com</p>
 		<br>
+		<a href="https://soundcloud.com/wilmahulten" class="fa fa-soundcloud" target="_blank"></a>
+		<a href="https://www.instagram.com/wilm_____ah/" class="fa fa-instagram" target="_blank"></a>
+		<a href="https://www.youtube.com/channel/UCLh5yzPomE9-OSXc-9QqOYQ" class="fa fa-youtube" target="_blank"></a>
 	</div>
 </body>
 </html>
