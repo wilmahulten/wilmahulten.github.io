@@ -83,6 +83,7 @@
 			font-family: "Spectral", "Georgia", serif;
 			justify-content: center;
 			cursor: auto;
+			letter-spacing: -0.01em;
 		}
 		h1 {
 			width: 100%;
@@ -201,6 +202,34 @@
 		display:block;
 		height: 30px;
 	}
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+		padding: 0px;
+	}
+	.grid-item {
+		padding: 10px;
+	}
+	#hettan1 {
+		position: relative;
+		float: left;
+      margin-top: 10%;
+			margin-left: 8%;
+			margin-bottom: 5%;
+	}
+	#hettan3 {
+		position: relative;
+		float: right;
+		margin-right: 8%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	#hettan2 {
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.youtube-embed {
 		position: relative;
 		padding-top: 56.25%;
@@ -217,21 +246,19 @@
 	}
 	.embed-page {
 		position: relative;
-		padding-top: 56%;
-		height: 0;
-		overflow: auto;
-		max-width: 100%;
-		margin: auto;
-		display: block;
+		padding: 0px;
+		overflow-z: hidden;
+		overflow-y: hidden;
+
 	}
 	.embed-page-iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		width: 100%;
-		height: 100%;
+		position: relative;
+		padding: 0px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		overflow-x: hidden;
+		overflow-y: hidden;
 	}
 	.player {
 		width: 100%;
@@ -252,7 +279,22 @@
 		</ul>
 
 		<span class="horizontalSpace"></span>
-		<h2>Recorded live concert</h2>
+		<h2><a href="https://soundcloud.com/lillaakademienkomposition/hettan-wilma-hulten" target="_blank"><i>Hettan</i> for Stockholm Saxophone Quartet</a></h2>
+		<p>In <i>Hettan</i> ("The Heat"), that I wrote for <a href="https://www.stockholmsax.com/en" target="_blank">Stockholm Saxophone Quartet</a>, I explore breathing, air sounds, and other soft qualities of the instruments as well as rhythmical discord and ways to notate improvisation that meets certain conditions.</p>
+		<p></p>
+		<p>Listen to the premiere performance:</p>
+		<div class="player">
+			<iframe width="100%" height="120" scrolling="no" frameborder="no"
+			src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1058424148&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+		</iframe>
+	</div>
+	<p>Below are some details from the score.</p>
+	<img id="hettan1" src="images/hettan1.png" alt="score" width="40%">
+	<img id="hettan3" src="images/hettan3.png" alt="score" width="40%">
+	<img id="hettan2" src="images/hettan2.png" alt="score" width="75%">
+	<span class="horizontalSpace"></span>
+
+		<h2><a href="https://www.youtube.com/embed/r90GS1Go1gc" target="_blank">Recorded live concert</a></h2>
 		<p>I played a live concert on May 21, 2021 at <a href="https://www.fylkingen.se/" target="_blank">Fylkingen</a> with material that I have developed during the last few months. I played with a midi controller and all sounds were created in SuperCollider. If you listened to my algorithmic piece on Chronopolis (see below), you will recognize the soundscape.</p>
 		<p></p>
 		<p>Listen to the full performance:</p>
@@ -263,12 +305,18 @@
 		</iframe>
 	</div>
 	<p>Special thanks to <a href="https://www.mariahorn.se/" target="_blank">Maria W Horn</a> and <a href="https://www.davidgranstrom.com/" target="_blank">David Granström</a> for all their help and support, technical and otherwise.</p>
-		<span class="horizontalSpace"></span>
+	<div class="grid-container">
+		<div class="grid-item"><img src="images/setup.JPG" alt="graphical timeline notation and midi controller" width=100%></div>
+		<div class="grid-item"><img src="images/sc-screenshot.png" alt="snippet from supercollider code" style="padding: 1.5px; border: 1px solid black" width=100%></div>
+	</div>
+	<span class="horizontalSpace"></span>
 
 		<h2><a href="https://cashmereradio.com/chronopolis/inert-mass/" target="_blank"><i>Inert Mass</i> @ Chronopolis/Cashmere Radio</a></h2>
 		<div class="embed-page">
 			<iframe class="embed-page-iframe"
 			src="https://cashmereradio.com/chronopolis/inert-mass/"
+			width="330px"
+			height="530px"
 			loading="lazy"
 			scrolling="no"
 			frameBorder="no">
