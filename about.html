@@ -13,7 +13,6 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>About | Wilma Hultén</title>
@@ -27,30 +26,18 @@
 		background-color: white;
 		margin: 0px;
 		min-height: 100%;
-		cursor: auto;
-	}
-	/* Mobile devices/small screens */
-	@media all and (min-width: 50px)   {  h1  { font-size:2.3em;  } }
-	@media all and (min-width: 100px)  {  h1  { font-size:2.4em;  } }
-	@media all and (min-width: 200px)  {  h1  { font-size:2.5em;  } }
-	@media all and (min-width: 300px)  {  h1  { font-size:2.7em;  } }
-	@media all and (min-width: 400px)  {  h1  { font-size:2.8em;  } }
-	@media all and (min-width: 500px)  {  h1  { font-size:2.0em;  } }
-	@media all and (min-width: 600px)  {  h1  { font-size:2.5em;  } }
-	@media all and (min-width: 700px)  {  h1  { font-size:3.0em;  } }
+		cursor: crosshair;
+		font-family: "Helvetica", "Arial", sans-serif;
+		justify-content: center;
+		/* hide scrollbar but allow scrolling */
+	-ms-overflow-style: none; /* for Internet Explorer, Edge */
+	scrollbar-width: none; /* for Firefox */
+	overflow-y: scroll;
+}
 
-	/* Desktops */
-	@media all and (min-width: 800px)  {  h1  { font-size:1.6em;  } }
-	@media all and (min-width: 900px)  {  h1  { font-size:1.8em;  } }
-	@media all and (min-width: 1000px) {  h1  { font-size:2.0em;  } }
-	@media all and (min-width: 1100px) {  h1  { font-size:2.3em;  } }
-	@media all and (min-width: 1200px) {  h1  { font-size:2.4em;  } }
-	@media all and (min-width: 1300px) {  h1  { font-size:2.5em;  } }
-	@media all and (min-width: 1400px) {  h1  { font-size:2.9em;  } }
-	@media all and (min-width: 1500px) {  h1  { font-size:3.0em;  } }
-	@media all and (min-width: 1500px) {  h1  { font-size:3.1em;  } }
-	@media all and (min-width: 1600px) {  h1  { font-size:3.2em;  } }
-	@media all and (min-width: 1700px) {  h1  { font-size:3.3em;  } }
+body::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+}
 
 	/* Mobile devices/small screens */
 	@media screen and (max-width:640px) {
@@ -58,115 +45,79 @@
 			width: 89%;
 			margin: auto;
 			padding: 0px;
-			font-family: "Spectral", "Georgia", serif;
-		}
-		h1 {
-			width: 100%;
-			display: block;
-			overflow: hidden;
-			letter-spacing: 0.4em;
-			margin-left: 0.2em;
-			font-weight: 100;
-			font-style: normal;
-			font-kerning: normal;
-			cursor: crosshair;
-			text-align: center;
 		}
 	}
 	/* Desktops */
 	@media screen and (min-width:640px) {
 		#content {
-			width: 43%;
-			margin: auto;
-			padding: 30px;
-			font-family: "Spectral", "Georgia", serif;
-			justify-content: center;
+			width: 35%;
+			margin-top: 5%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-bottom: 10em;
+			padding-top: 30px;
+			position: relative;
+			cursor: auto;
 		}
-		h1 {
-			width: 100%;
+		#sidebar {
+			position: fixed;
 			display: block;
-			overflow: hidden;
-			letter-spacing: 0.4em;
-			margin-left: 0.2em;
-			font-weight: 100;
-			font-style: normal;
-			font-kerning: normal;
-			cursor: crosshair;
-			text-align: center;
+			padding: 30px;
+			margin-left: 10%;
+			margin-top: 8%;
+			cursor: auto;
 		}
 	}
-	h1 a {
-		cursor: crosshair;
-		color: black;
-	}
-	h1 a:link {
-		text-decoration: none;
-	}
-	h1 a:visited {
-		text-decoration: none;
+	h1 {
+		font-size: 14px;
 	}
 	h1 a {
-		cursor: crosshair;
+		text-decoration: none;
 		color: black;
-	}
-	h1 a:link {
-		text-decoration: none;
-	}
-	h1 a:visited {
-		text-decoration: none;
 	}
 	.current {
-		width: 25%;
 		color: dimgray;
-		font-size: 20px;
-		letter-spacing: 4px;
-		font-weight: 400;
-		display: inline-block;
-		padding: 10px;
-		text-decoration: none;
-		text-align: center;
+		margin-left: 0.5em;
 	}
 	.navElement {
-		width: 25%;
 		color: black;
-		font-size: 20px;
-		letter-spacing: 4px;
-		font-weight: 400;
-		display: inline-block;
-		padding: 10px;
-		text-decoration: none;
-		text-align: center;
 	}
 	.topnav {
-		border: 1px solid black;
-		border-width: 1px 0;
 		list-style: none;
-		margin: 0;
-		padding: 0;
-		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		text-align: left;
+		font-size: 14px;
+		letter-spacing: 1px;
+		font-weight: 500;
+		text-decoration: none;
+		line-height: 180%;
 	}
 	.topnav li {
-		display: inline;
-
+	}
+	.topnav a {
+		text-decoration: none;
 	}
 	.topnav a:visited {
-		text-decoration: underline;
+		text-decoration: none;
 	}
 	.topnav a:hover {
-		text-decoration: underline;
+		margin-left: 0.5em
 	}
 	.topnav a:active {
-		text-decoration: underline;
+		text-decoration: none;
 		color: Crimson;
 	}
 	p {
-		font-size: 18px;
-		font-weight: 300;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 0.3px;
 		text-decoration: none;
-	}
-	.horizontalSpace {
-		display:block;
-		height: 30px;
+		text-align: justify;
+		text-justify: inter-word;
+		line-height: 150%;
 	}
 	.fa {
   padding: 20px 20px 20px 0px;
@@ -196,17 +147,20 @@ width: 20px;
 	</style>
 </head>
 <body>
-	<div id="content">
-		<h1><a href="index.html">WILMA HULTÉN</a></h1>
+	<div id="sidebar">
+		<h1><a href="index.html">Wilma Hultén</a></h1>
 		<ul class="topnav">
 			<li><a class="navElement" href="index.html">Home</a></li>
 			<li><a class="navElement" href="music.html">Music</a></li>
 			<li><a class="current" href="about.html">About</a></li>
 		</ul>
-		<span class="horizontalSpace"></span>
-		<p>Electroacoustic composer from Stockholm, Sweden.</p>
-		<p></p>
-		<p>Contact: wilmahulten@gmail.com</p>
+	</div>
+
+	<div id="content">
+		<p>Electroacoustic composer from Stockholm, Sweden.
+		<br>
+		<br>
+		Contact: wilmahulten@gmail.com</p>
 		<br>
 		<a href="https://soundcloud.com/wilmahulten" class="fa fa-soundcloud" target="_blank"></a>
 		<a href="https://www.instagram.com/wilm_____ah/" class="fa fa-instagram" target="_blank"></a>
