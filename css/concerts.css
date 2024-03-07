@@ -1,0 +1,53 @@
+.container, p {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-align: left;
+  line-height: 150%;
+}
+
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.date { 
+  text-align: right;
+  font-weight: 500;
+  flex-basis: 22%;
+  min-width: 50px;
+  flex-shrink: 4;
+}
+.item { 
+  flex-basis: 55%;
+  min-width: 18em;
+}
+
+p>a {
+  color: #000000;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #B22222;
+}
+
+p a:active {
+  color: #DC143C;
+}
+
+.tab {
+  margin-left: 10%;
+}
+
+.concerts {
+  margin: auto;
+  width: 100%;
+}
+.venue { 
+  font-weight: 500;
+}
