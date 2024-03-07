@@ -1,0 +1,30 @@
+hr {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  padding: 1em 1em 0em 1em;
+}
+
+.fa-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.fa {
+  background-color: #f6f6f5; 
+  color: #808080;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 860px) {
+  .fa {
+    background-color: #f6f6f5; 
+    color: #808080;
+  }
+}
