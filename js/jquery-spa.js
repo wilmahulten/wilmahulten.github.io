@@ -31,7 +31,7 @@ $(document).ready(function () {
     // Handle initial page load
     var url = window.location.href;
     var routes = url.substring(url.lastIndexOf('/') + 1);
-    var page = routes !== '' ? url + ".html" : "home.html";
+    var page = routes !== '' ? url : "home.html"; // Adjusted to load the root URL instead of appending .html
 
     console.log(page);
     loadPage(page);
