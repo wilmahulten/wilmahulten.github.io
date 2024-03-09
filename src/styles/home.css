@@ -1,19 +1,12 @@
-#content {
-  border: none;
-}
 #imageWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f6f6f5; 
-  border: 1px dashed #808080;
 }
 
 #coverphoto {
-  /* padding: 8%; */
-  margin: 8% auto 8% auto;
+  margin: 6% auto;
   display: block;
   filter: sepia(20%) contrast(85%);
-  max-width: 1000px;
-  align-self: center;
 }

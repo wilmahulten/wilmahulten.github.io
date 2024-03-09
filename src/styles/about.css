@@ -1,3 +1,13 @@
+div.about p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 200%;
+}
+
 hr {
   border-top: 1px solid #e0e0e0;
   border-bottom: none;

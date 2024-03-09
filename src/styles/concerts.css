@@ -1,4 +1,9 @@
-.container, p {
+.concerts {
+  margin: auto;
+  width: 100%;
+}
+
+.container {
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -15,6 +20,7 @@
   gap: 2%;
   flex-wrap: wrap;
 }
+
 .date { 
   text-align: right;
   font-weight: 500;
@@ -25,18 +31,29 @@
 .item { 
   flex-basis: 55%;
   min-width: 18em;
+  margin: 0;
 }
 
-p>a {
+.venue { 
+  font-weight: 500;
+  font-size: 12px;
+}
+
+div.concerts p {
+  font-size: 12px;
+}
+
+div.concerts p > a {
   color: #000000;
   text-decoration: none;
+  font-size: 12px;
 }
 
-p a:hover {
+div.concerts p > a:hover {
   color: #B22222;
 }
 
-p a:active {
+div.concerts p a:active {
   color: #DC143C;
 }
 
@@ -44,10 +61,3 @@ p a:active {
   margin-left: 10%;
 }
 
-.concerts {
-  margin: auto;
-  width: 100%;
-}
-.venue { 
-  font-weight: 500;
-}
