@@ -48,15 +48,15 @@ $(document).on('click','[data-link]', function (e) {
 //.htaccess for apache or any other web server edit file has to be edited 
 //to ensure that index.html file loads even if url in browser has been changed to maintain SPA system. 
 //e.g When user reloads the page or enters or paste a url with the same domain name but different path in the browser.
- $(window).on('load', function (){
+ // $(window).on('load', function (){
 
-  var url = window.location.href;//get page url from address bar.
-  var routes = url.substring(url.lastIndexOf('/')+1);//return page route from url.
-  var page = routes != '' ? url+".html" : "home.html" ;//if route is empty assign home.html to page to ajax load the default content.
+ //  var url = window.location.href;//get page url from address bar.
+ //  var routes = url.substring(url.lastIndexOf('/')+1);//return page route from url.
+ //  var page = routes != '' ? url+".html" : "home.html" ;//if route is empty assign home.html to page to ajax load the default content.
 
-  console.log(page);
+ //  console.log(page);
 
-  $.get(page, function (pageContent) {//return selected page content trough ajax.
-   $("#content").html(pageContent);//load content into main div
-  });
-});
+ //  $.get(page, function (pageContent) {//return selected page content trough ajax.
+ //   $("#content").html(pageContent);//load content into main div
+ //  });
+// });
