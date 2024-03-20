@@ -1,0 +1,27 @@
+.audio-player {
+  position: fixed;
+  bottom: 6%;
+  right: 6%;
+  z-index: 0;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .audio-player {
+    right: 5%;
+    top: 40%;
+  }
+}
+
+.play-button {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#playButtonCanvas {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+
