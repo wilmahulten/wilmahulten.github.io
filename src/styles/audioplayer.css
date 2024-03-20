@@ -9,17 +9,19 @@
 
 @media screen and (max-width: 1000px) {
   .audio-player {
-    right: 5%;
-    top: 30%;
+    right: 6%;
+    top: 270px;
   }
 }
 
 .play-button {
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 4px;
   filter: brightness(92%);
   color: #000000;
+  cursor: pointer;
+  letter-spacing: 0.4px;
 }
 
 #playButtonCanvas {

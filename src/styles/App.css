@@ -94,7 +94,7 @@ body::-webkit-scrollbar {
   flex: 1;
   background-color: #f6f6f5;
   padding: 2%;
-  margin: auto;
+  margin: 30px auto;
   height: 100%;
   max-width: 590px;
   min-width: 200px;
@@ -109,7 +109,7 @@ body::-webkit-scrollbar {
   }
 
   .content {
-    margin: 80% auto auto auto;
+    margin: 300px auto auto auto;
   }
 }
 
