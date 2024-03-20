@@ -37,7 +37,7 @@ const AudioPlayer = ({ audioSrc }) => {
 
   const handleMetadataLoaded = () => {
     if (initialPlay && audioRef.current.duration !== Infinity) {
-      const randomStart = Math.random() * audioRef.current.duration;
+      const randomStart = Math.random() * audioRef.current.duration * 0.8;
       audioRef.current.currentTime = randomStart;
       setInitialPlay(false);
     }
@@ -59,7 +59,7 @@ const AudioPlayer = ({ audioSrc }) => {
         });
       } else {
         // If AudioContext doesn't exist, play the audio normally
-        audioElement.play();
+        // audioElement.play();
         setPlaying(true);
       }
     }
