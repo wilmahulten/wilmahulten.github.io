@@ -7,7 +7,7 @@ import About from "./components/About";
 import AudioPlayer from "./components/AudioPlayer";
 import "./styles/App.css";
 
-const audioSrc = "audio/swellbox.wav";
+const audioSrc = "audio/swellbox.mp3";
 
 function App() {
 
