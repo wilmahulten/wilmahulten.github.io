@@ -4,12 +4,13 @@
   right: 6%;
   z-index: 0;
   text-decoration: none;
+  color: #000000;
 }
 
 @media screen and (max-width: 1000px) {
   .audio-player {
     right: 5%;
-    top: 40%;
+    top: 30%;
   }
 }
 
@@ -17,6 +18,8 @@
   border: none;
   margin: 0;
   padding: 0;
+  filter: brightness(92%);
+  color: #000000;
 }
 
 #playButtonCanvas {
@@ -24,4 +27,3 @@
   height: 100px;
   margin: 0;
 }
-
