@@ -59,7 +59,7 @@ const AudioPlayer = ({ audioSrc }) => {
         });
       } else {
         // If AudioContext doesn't exist, play the audio normally
-        // audioElement.play();
+        audioElement.play();
         setPlaying(true);
       }
     }
