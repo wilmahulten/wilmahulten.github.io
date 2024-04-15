@@ -6,10 +6,14 @@ import Concerts from "./components/Concerts";
 import About from "./components/About";
 import AudioPlayer from "./components/AudioPlayer";
 import "./styles/App.css";
+import ReactGA from "react-ga";
 
 const audioSrc = "audio/swellbox-mix.mp3";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-765CYMN8SG");
+  }, []);
 
   return (
     <div>
@@ -55,7 +59,7 @@ function App() {
       </Router>
 
       <div>
-          <AudioPlayer audioSrc={audioSrc} />
+        <AudioPlayer audioSrc={audioSrc} />
       </div>
     </div>
   );
