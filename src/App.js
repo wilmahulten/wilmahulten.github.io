@@ -6,7 +6,7 @@ import Concerts from "./components/Concerts";
 import About from "./components/About";
 import AudioPlayer from "./components/AudioPlayer";
 import "./styles/App.css";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 const audioSrc = "audio/swellbox-mix.mp3";
 
