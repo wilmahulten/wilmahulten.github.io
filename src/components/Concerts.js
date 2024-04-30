@@ -11,26 +11,29 @@ const Concerts = () => {
         <h3>2024</h3>
 
         <div className="container">
-          <div className="date">may ? |</div>
+          <div className="date">may 17 |</div>
           <div className="item">
             <p>
-              {/* <a href="" target="_blank"> */}
-              <span className="venue">Stockholm, TBA</span>
-              <br />
-              Exam concert
+              <a href="https://fb.me/e/3PHFzLDaF" target="_blank">
+                <span className="venue">Reaktorhallen, KTH</span>
+                <br />
+                Exam concert
+              </a>
             </p>
-            {/* </a> */}
           </div>
 
           <div className="date">may 6 |</div>
           <div className="item">
             <p>
-              {/* <a href="" target="_blank"> */}
-              <span className="venue">Kungasalen, KMH</span>
-              <br />
-              Årets instrument w/ Sören Hermansson (Hn.)
+              <a
+                href="https://www.kmh.se/konserter---evenemang/alla/arets-instrument.html"
+                target="_blank"
+              >
+                <span className="venue">Kungasalen, KMH</span>
+                <br />
+                Årets instrument w/ Sören Hermansson (Hn.)
+              </a>
             </p>
-            {/* </a> */}
           </div>
         </div>
 
