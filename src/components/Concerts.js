@@ -91,7 +91,7 @@ const Concerts = () => {
           <div className="date">feb 23 |</div>
           <div className="item">
             <p>
-              <a href="https://fylkingen.se/node/3056" target="_blank">
+              <a href="https://fylkingen.se/sv/events/jenny-berger-myhre-and-wilma-hulten#title" target="_blank">
                 <span className="venue">Fylkingen</span>
                 <br />
                 Solo set &ndash; live electronics
