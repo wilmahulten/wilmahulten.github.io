@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { HashRouter as Router, Route, Routes, NavLink } from "react-router-dom";
 import Home from "./components/Home";
 import Music from "./components/Music";
-import Concerts from "./components/Concerts";
+import Live from "./components/Live";
 import About from "./components/About";
 import AudioPlayer from "./components/AudioPlayer";
 import "./styles/App.css";
@@ -34,8 +34,8 @@ function App() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/concerts" activeClassName="active">
-                    Concerts
+                  <NavLink to="/live" activeClassName="active">
+                    Live 
                   </NavLink>
                 </li>
                 <li>
@@ -51,7 +51,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/music" element={<Music />} />
-              <Route path="/concerts" element={<Concerts />} />
+              <Route path="/live" element={<Live/>} />
               <Route path="/about" element={<About />} />
             </Routes>
           </div>
