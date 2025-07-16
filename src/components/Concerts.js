@@ -8,6 +8,20 @@ const Concerts = () => {
       <hr />
 
       <div className="concerts">
+        <h3>2025</h3>
+        <div className="container">
+          <div className="date">jul 26 |</div>
+          <div className="item">
+            <p>
+              <a href="https://www.instagram.com/p/DL8DcKBMS5D/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                <span className="venue">TBA</span>
+                <br />
+                Laikatonal #1 Release
+              </a>
+            </p>
+          </div>
+        </div>
+
         <h3>2024</h3>
 
         <div className="container">
