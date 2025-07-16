@@ -1,13 +1,13 @@
 import React from "react";
-import "../styles/concerts.css";
+import "../styles/live.css";
 
-const Concerts = () => {
+const Live = () => {
   return (
     <>
-      <h2>Concerts</h2>
+      <h2>Live</h2>
       <hr />
 
-      <div className="concerts">
+      <div className="Live">
         <h3>2025</h3>
         <div className="container">
           <div className="date">jul 26 |</div>
@@ -224,4 +224,4 @@ const Concerts = () => {
   );
 };
 
-export default Concerts;
+export default Live;

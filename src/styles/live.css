@@ -1,4 +1,4 @@
-.concerts {
+.live {
   margin: auto;
   width: 100%;
 }
@@ -39,21 +39,21 @@
   font-size: 12px;
 }
 
-div.concerts p {
+div.live p {
   font-size: 12px;
 }
 
-div.concerts p > a {
+div.live p > a {
   color: #000000;
   text-decoration: none;
   font-size: 12px;
 }
 
-div.concerts p > a:hover {
+div.live p > a:hover {
   color: #B22222;
 }
 
-div.concerts p a:active {
+div.live p a:active {
   color: #DC143C;
 }
 
