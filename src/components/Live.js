@@ -16,7 +16,7 @@ const Live = () => {
               <a href="https://www.instagram.com/p/DL8DcKBMS5D/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
                 <span className="venue">TBA</span>
                 <br />
-                Laikatonal #1 Release
+                Laikatonal #1 release
               </a>
             </p>
           </div>
