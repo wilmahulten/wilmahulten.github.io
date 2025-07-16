@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/music.css";
 
 const Music = () => {
@@ -12,7 +11,7 @@ const Music = () => {
           <div>
             <a href="https://xkatedral.bandcamp.com/track/inertia" target="_blank">
               <img
-                class="album"
+                className="album"
                 src="https://f4.bcbits.com/img/a0671490817_16.jpg"
                 alt="XKatedral - Anthology Series II Cover"
               />

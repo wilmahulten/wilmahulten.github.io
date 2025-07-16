@@ -1,10 +1,14 @@
-import React, { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import "../styles/audioplayer.css";
 
-const AudioPlayer = ({ audioSrc }) => {
+type AudioPlayerProps = {
+  audioSrc: string;
+};
+
+const AudioPlayer = ({ audioSrc }: AudioPlayerProps ) => {
   const audioRef = useRef(new Audio());
   const [isPlaying, setPlaying] = useState(false);
-  const [audioContext, setAudioContext] = useState(null);
+  const [audioContext, setAudioContext] = useState<AudioContext | null>(null);
   const [initialPlay, setInitialPlay] = useState(true);
 
   useEffect(() => {
@@ -15,7 +19,8 @@ const AudioPlayer = ({ audioSrc }) => {
 
     // If AudioContext doesn't exist, create it
     if (!audioContext) {
-      const context = new (window.AudioContext || window.webkitAudioContext)();
+      const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+      const context = new AudioContextClass();
       setAudioContext(context);
     }
 
@@ -65,7 +70,7 @@ const AudioPlayer = ({ audioSrc }) => {
     }
   };
 
-  const fadeIn = (audioElement, duration) => {
+  const fadeIn = (audioElement: HTMLAudioElement, duration: number) => {
     const finalVolume = 1; // Final volume level
     const increment = 0.05; // Volume increment per step
     const interval = duration / (finalVolume / increment);
@@ -82,7 +87,7 @@ const AudioPlayer = ({ audioSrc }) => {
     }, interval);
   };
 
-  const fadeOut = (audioElement, duration) => {
+  const fadeOut = (audioElement: HTMLAudioElement, duration: number) => {
     const finalVolume = 0; // Final volume level
     const decrement = 0.05; // Volume decrement per step
     const interval = duration / (audioElement.volume / decrement);

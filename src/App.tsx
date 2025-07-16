@@ -24,22 +24,31 @@ function App() {
             <nav>
               <ul>
                 <li>
-                  <NavLink to="/" activeClassName="active">
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) => (isActive ? "active" : undefined)}
+                  >                 
                     Home
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/music" activeClassName="active">
+                  <NavLink to="/music" 
+                    className={({ isActive }) => (isActive ? "active" : undefined)}
+                  >
                     Music
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/live" activeClassName="active">
+                  <NavLink to="/live" 
+                    className={({ isActive }) => (isActive ? "active" : undefined)}
+                  >
                     Live 
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about" activeClassName="active">
+                  <NavLink to="/about"
+                    className={({ isActive }) => (isActive ? "active" : undefined)}
+                  >
                     About
                   </NavLink>
                 </li>
