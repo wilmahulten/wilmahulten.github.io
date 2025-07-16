@@ -41,12 +41,6 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           ></a>
-          <a
-            href="https://open.spotify.com/artist/2JSkNpJq73hWxIFb6FSRHa?si=IAv_yhoKTNm3jI7_GmjBcQ"
-            className="fa fa-spotify"
-            target="_blank"
-            rel="noopener noreferrer"
-          ></a>
         </div>
       </div>
     </div>
