@@ -39,21 +39,21 @@
   font-size: 12px;
 }
 
-div.live p {
+div.Live p {
   font-size: 12px;
 }
 
-div.live p > a {
+div.Live p > a {
   color: #000000;
   text-decoration: none;
   font-size: 12px;
 }
 
-div.live p > a:hover {
+div.Live p > a:hover {
   color: #B22222;
 }
 
-div.live p a:active {
+div.Live p a:active {
   color: #DC143C;
 }
 
