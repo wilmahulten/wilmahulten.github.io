@@ -23,20 +23,26 @@
 
 .date { 
   text-align: right;
-  font-weight: 500;
+  font-weight: 400;
   flex-basis: 22%;
   min-width: 50px;
   flex-shrink: 4;
 }
+
 .item { 
   flex-basis: 55%;
   min-width: 18em;
   margin: 0;
 }
 
-.venue { 
-  font-weight: 500;
+.event { 
+  font-weight: 400;
   font-size: 12px;
+}
+
+.venue {
+  font-weight: 300;
+  font-style: italic;
 }
 
 div.Live p {

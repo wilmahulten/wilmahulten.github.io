@@ -13,9 +13,7 @@ const Live = () => {
           <div className="item">
             <p>
               <a href="https://www.instagram.com/p/DL8DcKBMS5D/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
-                <span className="venue">TBA</span>
-                <br />
-                Laikatonal #1 release
+                <span className="event">Laikatonal #1 release</span>
               </a>
             </p>
           </div>
@@ -28,9 +26,9 @@ const Live = () => {
           <div className="item">
             <p>
               <a href="https://fb.me/e/3PHFzLDaF" target="_blank">
-                <span className="venue">Reaktorhallen, KTH</span>
+                <span className="event">Exam concert: This time it is personal</span>
                 <br />
-                Exam concert
+                <span className="venue">Reaktorhallen, KTH</span>
               </a>
             </p>
           </div>
@@ -42,9 +40,9 @@ const Live = () => {
                 href="https://www.kmh.se/konserter---evenemang/alla/arets-instrument.html"
                 target="_blank"
               >
-                <span className="venue">Kungasalen, KMH</span>
+                <span className="event">Årets instrument w/ Sören Hermansson (Hn.)</span>
                 <br />
-                Årets instrument w/ Sören Hermansson (Hn.)
+                <span className="venue">Kungasalen, KMH</span>
               </a>
             </p>
           </div>
@@ -60,11 +58,9 @@ const Live = () => {
                 href="https://www.instagram.com/p/Czj0gLhM8jj/?utm_source=ig_web_copy_link"
                 target="_blank"
               >
-                <span className="venue">
-                  Lyssningsrum, Royal Institute of Art
-                </span>
+                <span className="event">Amina Hocine &ndash; Jordprov release + friends</span>
                 <br />
-                Amina Hocine &ndash; Jordprov release + friends
+                <span className="venue">Lyssningsrum, Royal Institute of Art</span>
               </a>
             </p>
           </div>
@@ -76,11 +72,9 @@ const Live = () => {
                 href="https://web.archive.org/web/20231019195614/https://www.envelopefestival.com/nordic-baltic-spatial-music-program"
                 target="_blank"
               >
-                <span className="venue">
-                  Lyssningsrum, Royal Institute of Art
-                </span>
+                <span className="event">Envelope Festival: Nordic Baltic Spatial Sound Works</span>
                 <br />
-                Envelope Festival: Nordic Baltic Spatial Sound Works
+                <span className="venue">Lyssningsrum, Royal Institute of Art</span>
               </a>
             </p>
           </div>
@@ -92,11 +86,9 @@ const Live = () => {
                 href="https://web.archive.org/web/20230530153714/https://www.tickster.com/sv/events/tbbblbpjnxjfdum/2023-05-29/tove-moller-wilma-hulten"
                 target="_blank"
               >
-                <span className="venue">
-                  Lyssningsrum, Royal Institute of Art
-                </span>
+                <span className="event">New music for more than two speakers</span>
                 <br />
-                New music for more than two speakers
+                <span className="venue">Lyssningsrum, Royal Institute of Art</span>
               </a>
             </p>
           </div>
@@ -105,9 +97,9 @@ const Live = () => {
           <div className="item">
             <p>
               <a href="https://fylkingen.se/sv/events/jenny-berger-myhre-and-wilma-hulten#title" target="_blank">
-                <span className="venue">Fylkingen</span>
+                <span className="event">Solo set &ndash; live electronics</span>
                 <br />
-                Solo set &ndash; live electronics
+                <span className="venue">Fylkingen</span>
               </a>
             </p>
           </div>
@@ -124,9 +116,9 @@ const Live = () => {
                 href="https://kmh-evi.se/system/files/2022-11/Programblad%20Elektroakustiskt%20i%20november%202022.pdf?evitoken=65TPdza0FGAldbLZpe4h&fbclid=IwAR2ktEBt6-LiHzeywS7pzjVs-0HpDq8dGGb7rjAtCLdUCuX_TUb9wYwQ3jM"
                 target="_blank"
               >
-                <span className="venue">Lilla Salen, KMH</span>
+                <span className="event">Elektroakustiskt i november</span>
                 <br />
-                Elektroakustiskt i november
+                <span className="venue">Lilla Salen, KMH</span>
               </a>
             </p>
           </div>
@@ -138,9 +130,9 @@ const Live = () => {
                 href="https://ungnordiskmusik.is/artist/wilma_hulten"
                 target="_blank"
               >
-                <span className="venue">Fríkirkjan, Reykjavík</span>
+                <span className="event">Ung Nordisk Musik: Connecting Dots</span>
                 <br />
-                Ung Nordisk Musik: Connecting Dots
+                <span className="venue">Fríkirkjan, Reykjavík</span>
               </a>
             </p>
           </div>
@@ -149,9 +141,9 @@ const Live = () => {
           <div className="item">
             <p>
               <a href="https://fylkingen.se/node/2941" target="_blank">
-                <span className="venue">Fylkingen</span>
+                <span className="event">Solo set &ndash; live electronics</span>
                 <br />
-                Solo set &ndash; live electronics
+                <span className="venue">Fylkingen</span>
               </a>
             </p>
           </div>
@@ -163,9 +155,9 @@ const Live = () => {
                 href="https://www.instagram.com/p/CZGzF2-MZTQ/?utm_source=ig_web_copy_link"
                 target="_blank"
               >
-                <span className="venue">Musikaliska</span>
+                <span className="event">Blåsarsymfonikernas saxofonkvartett</span>
                 <br />
-                Blåsarsymfonikernas saxofonkvartett
+                <span className="venue">Musikaliska</span>
               </a>
             </p>
           </div>
@@ -183,9 +175,9 @@ const Live = () => {
                 href="https://kmh-evi.se/system/files/2021-11/ljudOljud%20program%2C%2029%20nov-3%20dec%202021.pdf?evitoken=65TPdza0FGAldbLZpe4h"
                 target="blank"
               >
-                <span className="venue">Lilla Salen, KMH</span>
+                <span className="event">ljudOljud: Elektroakustisk konsert II</span>
                 <br />
-                ljudOljud: Elektroakustisk konsert II
+                <span className="venue">Lilla Salen, KMH</span>
               </a>
             </p>
           </div>
@@ -197,9 +189,9 @@ const Live = () => {
                 href="https://lillaakademien.se/konserter-events/2021/11/12/festivalen-framtidens-musik"
                 target="_blank"
               >
-                <span className="venue">Årsta Folkets Hus</span>
+                <span className="event">Stockholm Saxophone Quartet</span>
                 <br />
-                Stockholm Saxophone Quartet
+                <span className="venue">Årsta Folkets Hus</span>
               </a>
             </p>
           </div>
@@ -211,9 +203,9 @@ const Live = () => {
                 href="https://www.youtube.com/watch?v=r90GS1Go1gc&list=WL&index=2&t=1268s&ab_channel=WilmaHult%C3%A9n?autoplay=1&mute=1"
                 target="_blank"
               >
-                <span className="venue">Fylkingen</span>
+                <span className="event">Solo set &ndash; live electronics</span>
                 <br />
-                Solo set &ndash; live electronics
+                <span className="venue">Fylkingen</span>
               </a>
             </p>
           </div>
