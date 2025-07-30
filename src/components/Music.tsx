@@ -7,6 +7,20 @@ const Music = () => {
       <hr />
 
       <div className="releases">
+
+        <div className="albumItem">
+          <div>
+            <a href="https://www.instagram.com/p/DMi2L3Xseqc/?img_index=1" target="_blank">
+              <img
+                className="album"
+                src="images/laikatonal.jpg"
+                alt="Laikatonal #1 CD"
+              />
+            </a>
+            <h4>Laikatonal #1</h4>
+          </div>
+        </div>
+
         <div className="albumItem">
           <div>
             <a href="https://xkatedral.bandcamp.com/track/inertia" target="_blank">
