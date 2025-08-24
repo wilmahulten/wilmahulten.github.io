@@ -15,8 +15,7 @@ const About = () => {
         <h2>About</h2>
         <hr />
         <p>
-          Wilma Hultén (b. 1996) is a composer of electronic and acoustic music,
-          currently studying at the Royal College of Music in Stockholm.
+          Wilma Hultén (b. 1996) is a Swedish composer of both acoustic and electronic music with a Bachelor's degree from the Royal College of Music in Stockholm. In her music, she explores perception and spectral properties of sound.
         </p>
         <br />
         <p>Contact: wilmahulten@gmail.com</p>
