@@ -59,7 +59,7 @@ const Music = () => {
       <hr />
 
       <div className="projects">
-        <a href="https://radiophrenia.scot/calendar/monday-07/" target="_blank">
+        <a href="https://radiophrenia.scot/calendar/mon-04/" target="_blank">
           <i>Elsewhere</i> on Radiophrenia 2025
         </a>
 
