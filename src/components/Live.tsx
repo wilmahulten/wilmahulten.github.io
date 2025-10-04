@@ -8,7 +8,19 @@ const Live = () => {
 
       <div className="Live">
         <h3>2025</h3>
+
         <div className="container">
+          <div className="date">oct 31 |</div>
+          <div className="item">
+            <p>
+              <a href="https://fylkingen.se/en/events/dania-shihab-wilma-hulten-hara-alonso#title" target="_blank">
+                <span className="event">Solo set &ndash; live electronics</span>
+                <br />
+                <span className="venue">Fylkingen</span>
+              </a>
+            </p>
+          </div>
+
           <div className="date">jul 26 |</div>
           <div className="item">
             <p>
