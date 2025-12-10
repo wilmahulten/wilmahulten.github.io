@@ -59,6 +59,12 @@ const Music = () => {
       <hr />
 
       <div className="projects">
+        <a href="https://paletten.net/tidskrift/paletten-nr-342" target="_blank">
+          Graphic scores published in Paletten no. 342, text by Amina Hocine
+        </a>
+
+        <br />
+
         <a href="https://radiophrenia.scot/calendar/mon-04/" target="_blank">
           <i>Elsewhere</i> on Radiophrenia 2025
         </a>
