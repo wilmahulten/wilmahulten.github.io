@@ -7,6 +7,21 @@ const Live = () => {
       <hr />
 
       <div className="Live">
+        <h3>2026</h3>
+
+        <div className="container">
+          <div className="date">feb 1 |</div>
+          <div className="item">
+            <p>
+              <a href="https://billetto.se/e/au-rum-ii-biljetter-1803363" target="_blank">
+                <span className="event">au:rum II</span>
+                <br />
+                <span className="venue">S:t Sigfrids kyrka</span>
+              </a>
+            </p>
+          </div>
+        </div>
+
         <h3>2025</h3>
 
         <div className="container">
@@ -152,7 +167,7 @@ const Live = () => {
           <div className="date">apr 15 |</div>
           <div className="item">
             <p>
-              <a href="https://fylkingen.se/node/2941" target="_blank">
+              <a href="https://web.archive.org/web/20230106173650/https://fylkingen.se/node/2941" target="_blank">
                 <span className="event">Solo set &ndash; live electronics</span>
                 <br />
                 <span className="venue">Fylkingen</span>
