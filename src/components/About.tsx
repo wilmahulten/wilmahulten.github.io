@@ -22,12 +22,6 @@ const About = () => {
         <hr />
         <div className="fa-container">
           <a
-            href="https://soundcloud.com/wilmahulten"
-            className="fa fa-soundcloud"
-            target="_blank"
-            rel="noopener noreferrer"
-          ></a>
-          <a
             href="https://www.instagram.com/wilm_____ah/"
             className="fa fa-instagram"
             target="_blank"

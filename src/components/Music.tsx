@@ -93,12 +93,6 @@ const Music = () => {
           Algorithmic piece <i>Inert Mass</i> for Chronopolis / Cashmere Radio
         </a>
 
-        <br />
-
-        <a href="https://soundcloud.com/wilmahulten/imbrications?si=aac77bece6ec44e796f5d010656e9bb6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
-          <i>Imbrications</i> &mdash; For violin and electronics
-        </a>
-
       </div>
     </>
   );
