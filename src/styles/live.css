@@ -42,7 +42,7 @@
 
 .venue {
   font-weight: 300;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 div.Live p {
