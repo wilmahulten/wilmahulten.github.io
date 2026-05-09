@@ -10,13 +10,39 @@ const Live = () => {
         <h3>2026</h3>
 
         <div className="container">
+          <div className="date">jul 24 |</div>
+          <div className="item">
+            <p>
+              <a href="https://klexoslab.es/" target="_blank">
+                <span className="event">KlexosLab New Music Festival</span>
+                <br />
+                <span className="venue">Centro Cultural San Francisco (Plasencia, ES)</span>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="date">jul 5 |</div>
+          <div className="item">
+            <p>
+              <a href="https://www.collisionpointsfestival.com/calendar-2" target="_blank">
+                <span className="event">Collision Points Festival</span>
+                <br />
+                <span className="venue">Folkets hus (Ankarsrum, SE)</span>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div className="container">
           <div className="date">feb 1 |</div>
           <div className="item">
             <p>
               <a href="https://billetto.se/e/au-rum-ii-biljetter-1803363" target="_blank">
                 <span className="event">au:rum II</span>
                 <br />
-                <span className="venue">S:t Sigfrids kyrka</span>
+                <span className="venue">S:t Sigfrids kyrka (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -31,7 +57,7 @@ const Live = () => {
               <a href="https://fylkingen.se/en/events/dania-shihab-wilma-hulten-hara-alonso#title" target="_blank">
                 <span className="event">Solo set &ndash; live electronics</span>
                 <br />
-                <span className="venue">Fylkingen</span>
+                <span className="venue">Fylkingen (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -52,10 +78,10 @@ const Live = () => {
           <div className="date">may 17 |</div>
           <div className="item">
             <p>
-              <a href="https://fb.me/e/3PHFzLDaF" target="_blank">
+              <a href="https://billetto.se/e/examenskonsert-this-time-it-is-personal-biljetter-992311?vs=0189c81a-4943-4a16-ba8b-dbe3" target="_blank">
                 <span className="event">Exam concert: This time it is personal</span>
                 <br />
-                <span className="venue">Reaktorhallen, KTH</span>
+                <span className="venue">Reaktorhallen, KTH (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -63,14 +89,9 @@ const Live = () => {
           <div className="date">may 6 |</div>
           <div className="item">
             <p>
-              <a
-                href="https://www.kmh.se/konserter---evenemang/alla/arets-instrument.html"
-                target="_blank"
-              >
-                <span className="event">Årets instrument w/ Sören Hermansson (Hn.)</span>
-                <br />
-                <span className="venue">Kungasalen, KMH</span>
-              </a>
+              <span className="event">Årets instrument w/ Sören Hermansson (Hn.)</span>
+              <br />
+              <span className="venue">Kungasalen, KMH (Stockholm, SE)</span>
             </p>
           </div>
         </div>
@@ -87,7 +108,7 @@ const Live = () => {
               >
                 <span className="event">Amina Hocine &ndash; Jordprov release + friends</span>
                 <br />
-                <span className="venue">Lyssningsrum, Royal Institute of Art</span>
+                <span className="venue">Lyssningsrum, Royal Institute of Art (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -101,7 +122,7 @@ const Live = () => {
               >
                 <span className="event">Envelope Festival: Nordic Baltic Spatial Sound Works</span>
                 <br />
-                <span className="venue">Lyssningsrum, Royal Institute of Art</span>
+                <span className="venue">Lyssningsrum, Royal Institute of Art (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -115,7 +136,7 @@ const Live = () => {
               >
                 <span className="event">New music for more than two speakers</span>
                 <br />
-                <span className="venue">Lyssningsrum, Royal Institute of Art</span>
+                <span className="venue">Lyssningsrum, Royal Institute of Art (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -126,7 +147,7 @@ const Live = () => {
               <a href="https://fylkingen.se/sv/events/jenny-berger-myhre-and-wilma-hulten#title" target="_blank">
                 <span className="event">Solo set &ndash; live electronics</span>
                 <br />
-                <span className="venue">Fylkingen</span>
+                <span className="venue">Fylkingen (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -140,12 +161,12 @@ const Live = () => {
           <div className="item">
             <p>
               <a
-                href="https://kmh-evi.se/system/files/2022-11/Programblad%20Elektroakustiskt%20i%20november%202022.pdf?evitoken=65TPdza0FGAldbLZpe4h&fbclid=IwAR2ktEBt6-LiHzeywS7pzjVs-0HpDq8dGGb7rjAtCLdUCuX_TUb9wYwQ3jM"
+                href="https://web.archive.org/web/20230106173655/https://kmh-evi.se/system/files/2022-11/Programblad%20Elektroakustiskt%20i%20november%202022.pdf?evitoken=65TPdza0FGAldbLZpe4h"
                 target="_blank"
               >
                 <span className="event">Elektroakustiskt i november</span>
                 <br />
-                <span className="venue">Lilla Salen, KMH</span>
+                <span className="venue">Lilla Salen, KMH (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -159,7 +180,7 @@ const Live = () => {
               >
                 <span className="event">Ung Nordisk Musik: Connecting Dots</span>
                 <br />
-                <span className="venue">Fríkirkjan, Reykjavík</span>
+                <span className="venue">Fríkirkjan (Reykjavík, IS)</span>
               </a>
             </p>
           </div>
@@ -170,7 +191,7 @@ const Live = () => {
               <a href="https://web.archive.org/web/20230106173650/https://fylkingen.se/node/2941" target="_blank">
                 <span className="event">Solo set &ndash; live electronics</span>
                 <br />
-                <span className="venue">Fylkingen</span>
+                <span className="venue">Fylkingen (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -184,7 +205,7 @@ const Live = () => {
               >
                 <span className="event">Blåsarsymfonikernas saxofonkvartett</span>
                 <br />
-                <span className="venue">Musikaliska</span>
+                <span className="venue">Musikaliska (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -199,12 +220,12 @@ const Live = () => {
           <div className="item">
             <p>
               <a
-                href="https://kmh-evi.se/system/files/2021-11/ljudOljud%20program%2C%2029%20nov-3%20dec%202021.pdf?evitoken=65TPdza0FGAldbLZpe4h"
-                target="blank"
+                href="https://web.archive.org/web/20230106173655/https://kmh-evi.se/system/files/2021-11/ljudOljud%20program%2C%2029%20nov-3%20dec%202021.pdf?evitoken=65TPdza0FGAldbLZpe4h"
+                target="_blank"
               >
                 <span className="event">ljudOljud: Elektroakustisk konsert II</span>
                 <br />
-                <span className="venue">Lilla Salen, KMH</span>
+                <span className="venue">Lilla Salen, KMH (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -218,7 +239,7 @@ const Live = () => {
               >
                 <span className="event">Stockholm Saxophone Quartet</span>
                 <br />
-                <span className="venue">Årsta Folkets Hus</span>
+                <span className="venue">Årsta Folkets Hus (Stockholm, SE)</span>
               </a>
             </p>
           </div>
@@ -232,7 +253,7 @@ const Live = () => {
               >
                 <span className="event">Solo set &ndash; live electronics</span>
                 <br />
-                <span className="venue">Fylkingen</span>
+                <span className="venue">Fylkingen (Stockholm, SE)</span>
               </a>
             </p>
           </div>
