@@ -59,9 +59,13 @@ const Music = () => {
       <hr />
 
       <div className="projects">
+        
         <a href="https://onaironsite.com/artists/wilma-hulten" target="_blank">
           <i>Elsewhere</i> on On Air - On Site 2026
         </a>
+
+        <br />
+
         <a href="https://paletten.net/tidskrift/paletten-nr-342" target="_blank">
           Graphic scores published in Paletten no. 342, text by Amina Hocine
         </a>
