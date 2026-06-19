@@ -66,10 +66,6 @@ function App() {
           </div>
         </div>
       </Router>
-
-      <div>
-        <AudioPlayer audioSrc={audioSrc} />
-      </div>
     </div>
   );
 }
