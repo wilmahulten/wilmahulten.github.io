@@ -59,6 +59,13 @@ const Music = () => {
       <hr />
 
       <div className="projects">
+
+        <a href="https://radiokapital.pl/shows/carewaves/15-collision-points-2026/" target="_blank">
+          <i>Mina kammare</i> on carewaves #15 – Radio Kapital (at 32:00)
+        </a>
+
+        <br />
+
         
         <a href="https://onaironsite.com/artists/wilma-hulten" target="_blank">
           <i>Elsewhere</i> on On Air - On Site 2026
