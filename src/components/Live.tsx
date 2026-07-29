@@ -14,7 +14,7 @@ const Live = () => {
           <div className="item">
             <p>
               <a href="https://klexoslab.es/" target="_blank">
-                <span className="event">KlexosLab New Music Festival</span>
+                <span className="event">KlexosLab 2026 w/ Elisa García (ob.)</span>
                 <br />
                 <span className="venue">Centro Cultural San Francisco (Plasencia, ES)</span>
               </a>
@@ -89,7 +89,7 @@ const Live = () => {
           <div className="date">may 6 |</div>
           <div className="item">
             <p>
-              <span className="event">Årets instrument w/ Sören Hermansson (Hn.)</span>
+              <span className="event">Årets instrument w/ Sören Hermansson (hn.)</span>
               <br />
               <span className="venue">Kungasalen, KMH (Stockholm, SE)</span>
             </p>
