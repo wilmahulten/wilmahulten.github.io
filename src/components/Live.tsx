@@ -13,11 +13,11 @@ const Live = () => {
           <div className="date">aug 26 |</div>
           <div className="item">
             <p>
-              {/* <a href="target="_blank"> */}
-              <span className="event">Site-specific sound installation <i>Other Room</i></span>
+              <a href="https://fb.me/e/29imuIvtVf" target="_blank">
+                <span className="event">Site-specific sound installation <i>Other Room</i></span>
                 <br />
                 <span className="venue">Sound Art Lab (Struer, DK)</span>
-              {/* </a> */}
+              </a>
             </p>
           </div>
         </div>
