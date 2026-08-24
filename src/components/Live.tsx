@@ -10,6 +10,19 @@ const Live = () => {
         <h3>2026</h3>
 
         <div className="container">
+          <div className="date">aug 26 |</div>
+          <div className="item">
+            <p>
+              {/* <a href="target="_blank"> */}
+              <span className="event">Site-specific sound installation <i>Other Room</i></span>
+                <br />
+                <span className="venue">Sound Art Lab (Struer, DK)</span>
+              {/* </a> */}
+            </p>
+          </div>
+        </div>
+
+        <div className="container">
           <div className="date">jul 24 |</div>
           <div className="item">
             <p>
