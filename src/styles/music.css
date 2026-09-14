@@ -56,7 +56,7 @@ div.projects {
   text-decoration: none;
   text-align: justify;
   text-justify: inter-word;
-  line-height: 300%;
+  /* line-height: 300%; */
 }
 
 div.projects > a {
@@ -73,3 +73,7 @@ div.projects a:active {
   color: #DC143C;
 }
 
+br.oldbig {
+  line-height:300%;
+  vertical-align:top;
+}

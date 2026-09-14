@@ -65,11 +65,13 @@ const Music = () => {
         </a>
 
         <br />
+        <br />
 
         <a href="https://radiokapital.pl/shows/carewaves/15-collision-points-2026/" target="_blank">
           <i>Mina kammare</i> on carewaves #15 – Radio Kapital (at 32:00)
         </a>
 
+        <br />
         <br />
         
         <a href="https://onaironsite.com/artists/wilma-hulten" target="_blank">
@@ -77,11 +79,13 @@ const Music = () => {
         </a>
 
         <br />
+        <br />
 
         <a href="https://paletten.net/tidskrift/paletten-nr-342" target="_blank">
           Graphic scores published in Paletten no. 342, text by Amina Hocine
         </a>
 
+        <br />
         <br />
 
         <a href="https://radiophrenia.scot/calendar/mon-04/" target="_blank">
@@ -89,11 +93,13 @@ const Music = () => {
         </a>
 
         <br />
+        <br />
 
         <a href="https://ungnordiskmusik.is/artist/wilma_hulten/" target="_blank">
           String quartet <i>Everred</i> performed at UNM 2022
         </a>
 
+        <br />
         <br />
 
         <a href="https://soundcloud.com/lillaakademienkomposition/hettan-wilma-hulten?si=7a70e2dae7004538aa3d08843ad47c4c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
@@ -101,16 +107,21 @@ const Music = () => {
         </a>
 
         <br />
+        <br />
 
         <a href="https://www.youtube.com/watch?v=r90GS1Go1gc" target="blank" >
           Recorded live electronics set – Fylkingen
         </a>
 
         <br />
+        <br />
 
         <a href="https://cashmereradio.com/chronopolis/inert-mass/" target="_blank">
           Algorithmic piece <i>Inert Mass</i> for Chronopolis / Cashmere Radio
         </a>
+
+        <br />
+        <br />
 
       </div>
     </>
