@@ -26,11 +26,11 @@ const Live = () => {
           <div className="date">sep 21 |</div>
           <div className="item">
             <p>
-              <a href="" target="_blank">
+              {/* <a href="" target="_blank"> */}
                 <span className="event">Solo set &ndash; live electronics</span>
                 <br />
                 <span className="venue">Music Innovation Studies Centre &ndash; LMTA (Vilnius, LT)</span>
-              </a>
+              {/* </a> */}
             </p>
           </div>
         </div>
