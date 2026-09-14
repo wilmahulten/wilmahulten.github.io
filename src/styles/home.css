@@ -3,10 +3,13 @@
   justify-content: center;
   align-items: center;
   background-color: #f6f6f5; 
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
 }
 
 #coverphoto {
   margin: 6% auto;
   display: block;
-  filter: sepia(20%) contrast(85%);
+  width: 100%;
 }

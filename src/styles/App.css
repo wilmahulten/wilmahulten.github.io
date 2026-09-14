@@ -34,7 +34,7 @@ body::-webkit-scrollbar {
 
 .app-container {
   display: flex;
-  padding: 10%;
+  padding: 0;
   flex-direction: column;
 }
 
@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
   max-width: 25ch;
   overflow: hidden;
   position: fixed;
-  top: 4%;
+  top: 0%;
   left: 2%;
   right: 2%;
   z-index: 0;
@@ -94,7 +94,7 @@ body::-webkit-scrollbar {
   flex: 1;
   background-color: #f6f6f5;
   padding: 2%;
-  margin: 30px auto;
+  margin: 120px auto;
   height: 100%;
   max-width: 590px;
   min-width: 200px;
@@ -109,7 +109,7 @@ body::-webkit-scrollbar {
   }
 
   .content {
-    margin: 300px auto auto auto;
+    margin: 250px auto auto auto;
   }
 }
 
