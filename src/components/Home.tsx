@@ -7,8 +7,7 @@ const Home = () => {
         <img
           id="coverphoto"
           src="/images/cover.png"
-          alt="live setup with computer, mixer, cables"
-          width="85%"
+          alt="Wilma Hultén live set"
         />
       </a>
     </div>
