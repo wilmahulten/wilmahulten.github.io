@@ -1,0 +1,69 @@
+.live {
+  margin: auto;
+  width: 100%;
+}
+
+.container {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-align: left;
+  line-height: 150%;
+}
+
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: row;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+.date { 
+  text-align: right;
+  font-weight: 400;
+  flex-basis: 22%;
+  min-width: 50px;
+  flex-shrink: 4;
+}
+
+.item { 
+  flex-basis: 55%;
+  min-width: 18em;
+  margin: 0;
+}
+
+.event { 
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.venue {
+  font-weight: 300;
+  /* font-style: italic; */
+}
+
+div.live p {
+  font-size: 12px;
+}
+
+div.live p > a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+div.live p > a:hover {
+  color: #B22222;
+}
+
+div.live p a:active {
+  color: #DC143C;
+}
+
+.tab {
+  margin-left: 10%;
+}
+

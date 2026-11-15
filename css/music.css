@@ -1,0 +1,79 @@
+/* Titles for releases: */ 
+h4 {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 300%;
+  text-align: center;
+}
+
+.releases {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  column-gap: 1ch;
+  row-gap: 2ch;
+}
+
+.albumItem {
+  width: 250px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex: 1;
+}
+
+.albumItem img {
+  width: 250px;
+  margin: auto;
+}
+
+.albumItem a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#score, #hettan {
+  filter: brightness(92%);
+}
+
+@media screen and (max-width: 860px) {
+  .albumItem a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+div.projects {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-align: justify;
+  text-justify: inter-word;
+  /* line-height: 300%; */
+}
+
+div.projects > a {
+  color: #000000;
+  text-decoration: none;
+  background-color: #e4e4e4;
+}
+
+div.projects > a:hover {
+  color: #B22222;
+}
+
+div.projects a:active {
+  color: #DC143C;
+}
+
+br.oldbig {
+  line-height:300%;
+  vertical-align:top;
+}
