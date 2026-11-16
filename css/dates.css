@@ -32,6 +32,12 @@
   width: 44ch;
 }
 
+@media screen and (max-width: 600px) {
+  .event {
+    max-width: 25ch;
+  }
+}
+
 .venue {
   font-weight: 400;
   text-decoration: underline;
