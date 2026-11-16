@@ -1,69 +1,64 @@
 .live {
   margin: auto;
   width: 100%;
+  padding-bottom: 10%;
 }
 
 .container {
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   text-decoration: none;
   text-align: left;
-  line-height: 150%;
-}
-
-.container { 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: baseline;
   flex-direction: row;
-  gap: 2%;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  line-height: 200%;
+  /* gap: 2px; */
+}
+
+.container div {
+  border-style: dotted none none none;
+  border-width: 0.1px;
 }
 
 .date { 
-  text-align: right;
-  font-weight: 400;
-  flex-basis: 22%;
-  min-width: 50px;
-  flex-shrink: 4;
-}
-
-.item { 
-  flex-basis: 55%;
-  min-width: 18em;
-  margin: 0;
+  width: 8ch;
+  min-width: 8ch;
 }
 
 .event { 
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  width: 44ch;
+  min-width: 20ch;
 }
 
 .venue {
-  font-weight: 300;
-  /* font-style: italic; */
+  font-weight: 400;
+  text-decoration: underline;
+  width: 50%;
 }
 
 div.live p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
-div.live p > a {
+.live > a {
   color: #000000;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
 }
 
-div.live p > a:hover {
+.live > a:hover {
   color: #B22222;
 }
 
-div.live p a:active {
+live a:active {
   color: #DC143C;
 }
 
 .tab {
   margin-left: 10%;
 }
-
