@@ -3,11 +3,10 @@
 }
 
 #coverphoto {
-  /* padding: 8%; */
   margin: auto;
   display: block;
   filter: sepia(20%) contrast(85%);
-  /* max-width: 550px; */
   width: 100%;
   align-self: center;
+  cursor: auto;
 }
