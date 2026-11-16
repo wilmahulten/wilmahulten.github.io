@@ -20,7 +20,7 @@ h4 {
 }
 
 .albumItem {
-  width: 250px;
+  max-width: 250px;
   margin: auto;
   display: flex;
   position: relative;
@@ -29,7 +29,7 @@ h4 {
 }
 
 .albumItem img {
-  width: 250px;
+  max-width: 250px;
   margin: auto;
 }
 
@@ -50,7 +50,6 @@ h4 {
 }
 .projects {
   width: 100%;
-  /* letter-spacing: 0.5px; */
   text-decoration: none;
   text-align: left;
   display: flex;

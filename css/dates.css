@@ -5,7 +5,6 @@
 }
 
 .container {
-  /* letter-spacing: 0.5px; */
   text-decoration: none;
   text-align: left;
   display: flex;
@@ -15,7 +14,6 @@
   flex-wrap: nowrap;
   font-size: 14px;
   line-height: 200%;
-  /* gap: 2px; */
 }
 
 .container div {
@@ -32,7 +30,6 @@
   font-weight: 500;
   font-size: 14px;
   width: 44ch;
-  min-width: 20ch;
 }
 
 .venue {
