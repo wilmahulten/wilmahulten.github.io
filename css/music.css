@@ -1,3 +1,10 @@
+/* Spotlight */ 
+.spotlight {
+  width: 300px;
+  padding: 20px 0;
+  position: relative;
+}
+
 /* Titles for releases: */ 
 h4 {
   font-size: 14px;
@@ -10,32 +17,48 @@ h4 {
 }
 
 .releases {
-  margin: auto;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
-  column-gap: 1ch;
-  row-gap: 2ch;
+  gap: 1ch;
 }
 
 .albumItem {
-  max-width: 250px;
-  margin: auto;
+  margin: 0;
   display: flex;
   position: relative;
   justify-content: center;
-  flex: 1;
 }
 
 .albumItem img {
-  max-width: 250px;
-  margin: auto;
+  max-width: 150px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .albumItem a {
   text-decoration: none;
   color: inherit;
+}
+
+.hover-text {
+  display: none;
+  background: #f6f6f5; 
+  border: 0.5px solid #000;
+  height: 20px;
+  width: 30%;
+  /* margin: auto; */
+  position: absolute;
+  bottom: calc(50% - 10px);
+  left: 35%;
+  font-size: 10px;
+  text-align: center;
+}
+
+a:hover+div {
+  display: block;
 }
 
 #score, #hettan {
@@ -87,4 +110,57 @@ h4 {
 br.oldbig {
   line-height:300%;
   vertical-align:top;
+}
+
+table {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: left;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+
+table td, table th {
+  border: 0.5px solid black;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+
+audio {
+  padding: 2px;
+  max-height: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  audio {
+    max-width: 150px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  audio {
+    max-width: 250px;
+  }
+}
+
+.video-container {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+}
+
+video {
+  width: 100%;
 }
