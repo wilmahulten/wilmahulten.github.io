@@ -1,5 +1,12 @@
-#content {
-  border: none;
+#cover {
+  max-width: 45%;
+  margin: auto;
+}
+
+@media screen and (max-width: 860px) {
+  #cover {
+    max-width: 90%;
+  }
 }
 
 #coverphoto {
